@@ -30,7 +30,7 @@ function buyMaterial(boxes){
  if(boxes!==11&&boxes!==1)return;
  pendingMaterialBoxes=boxes;
  $('materialDialogProduct').textContent=boxes===11?'太古氣息箱 11個（每次 1,000 鑽石）':'太古氣息箱（每次 100 鑽石）';
- $('materialCount').value='1';$('materialPurchaseModal').hidden=false;
+ $('materialCount').value='';$('materialPurchaseModal').hidden=false;
  materialModalUpdate();$('materialCount').focus();
 }
 function confirmMaterialPurchase(){
@@ -282,7 +282,7 @@ function revealCraft(index, withSound=true){
  card.classList.add('revealed',success?'craft-win':'craft-loss');
  card.setAttribute('aria-label',`第${index+1}次：${success?'製作成功':'製作失敗'}`);
  const name=craftNames[pendingBatch.box-1];
- card.innerHTML=success?`<span class="craft-result-order">第 ${index+1} 次</span><img src="assets/craft-chest-large.png" alt="神話技能書選擇箱"><strong>${name}</strong><b class="craft-success">製作成功</b>`:`<span class="craft-result-order">第 ${index+1} 次</span><span class="craft-fail-symbol">✕</span><strong>製作失敗</strong><span>返還創造氣息 ×384</span><span>獲得製作弧光石(神話) ×1</span>`;
+ card.innerHTML=success?`<span class="craft-result-order">第 ${index+1} 次</span><img src="assets/craft-chest-large.png" alt="神話技能書選擇箱"><strong>${name}</strong><b class="craft-success">製作成功</b>`:`<span class="craft-result-order">第 ${index+1} 次</span><img class="craft-essence-reward" src="assets/creation-essence.png" alt="創造氣息"><strong>創造氣息 ×384</strong><b class="craft-failure">製作失敗</b><span>返還創造氣息 ×384</span><span>獲得製作弧光石(神話) ×1</span>`;
  ce('craftRevealCount').textContent=`${revealed.size} / ${pendingBatch.attempts} 已揭曉`;
  if(revealed.size===pendingBatch.attempts){
   resultSummary.hidden=false;

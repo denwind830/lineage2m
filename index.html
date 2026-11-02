@@ -35,7 +35,7 @@ select:focus{outline:2px solid #d6aa59;outline-offset:2px}select option:checked{
 @media(max-width:740px){.craft-v29{grid-template-columns:1fr}.craft-v29 .craft-list{display:flex;overflow-x:auto}.craft-v29 .craft-item{min-width:185px}.craft-v29 .craft-center{border-left:0}}
 @media(max-width:460px){.craft-upper{grid-template-columns:1fr}.craft-v29 .craft-center{border-bottom:1px solid #665537}}
 </style><style>
-/* v3.5.2 crafting progress and click-to-reveal results */
+/* v3.5.5 crafting progress and click-to-reveal results */
 .craft-overlay[hidden],.craft-result-summary[hidden]{display:none!important}
 .craft-overlay{position:fixed;inset:0;z-index:9999;background:rgba(2,5,10,.87);display:flex;align-items:center;justify-content:center;padding:18px;overflow:auto}
 .craft-progress-dialog,.craft-results-dialog{width:min(850px,100%);background:radial-gradient(ellipse at 50% 0,#273242,#0d141e 78%);border:1px solid #b58a45;box-shadow:0 0 38px #a45b203d;padding:24px;color:#e9d5b4}
@@ -47,7 +47,7 @@ select:focus{outline:2px solid #d6aa59;outline-offset:2px}select option:checked{
 @media(max-width:520px){.craft-results-dialog{padding:14px}.craft-result-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.craft-result-actions button{min-width:0;flex:1}}
 @media(prefers-reduced-motion:reduce){.craft-progress-mark{animation:none}}
 </style><style>
-/* v3.5.2: exact user-supplied arcstone artwork and single-result presentation */
+/* v3.5.5: exact user-supplied arcstone artwork and single-result presentation */
 .craft-arcstone-row{display:flex;align-items:center;gap:10px}
 .craft-arcstone-icon{display:block;width:53px;height:49px;object-fit:contain;flex:none;image-rendering:auto}
 .craft-result-grid.craft-result-single{display:flex;align-items:center;justify-content:center;max-height:65vh;overflow:auto}
@@ -59,12 +59,16 @@ select:focus{outline:2px solid #d6aa59;outline-offset:2px}select option:checked{
 .craft-result-grid.craft-result-single .craft-fail-symbol{font-size:88px!important}
 @media(max-width:520px){.craft-result-grid.craft-result-single .craft-result-card{min-height:300px}.craft-result-grid.craft-result-single .craft-result-card img{width:150px;height:140px}}
 </style><style>
-/* v3.5.2 - user's original creation essence icon, used in both inventory and crafting */
+/* v3.5.5 - user's original creation essence icon, used in both inventory and crafting */
 .creation-essence-icon{display:block;width:50px;height:50px;max-width:22%;object-fit:contain;flex:0 0 auto}
 .shop-material-item .creation-essence-icon{width:52px;height:52px}
 .craft-right .craft-mat>.creation-essence-icon{width:52px;height:52px}
 @media(max-width:550px){.creation-essence-icon,.shop-material-item .creation-essence-icon,.craft-right .craft-mat>.creation-essence-icon{width:42px;height:42px}}
-</style></head><body><header><h1>LINEAGE II M <small>SIMULATOR</small></h1><div>台灣服 · 原始世界｜非官方獨立模擬器 v3.5.2</div></header><main><div class="warning"><b>資料狀態：</b>職業及壺精共八組召喚階級機率已依使用者提供的遊戲內截圖設定，一般合成成功率及失敗返還規則依使用者提供設定；變身與壺精皆有超越神話與唯一階級；超越神話屬於神話階級的特殊取得分類，無法透過一般傳說合成取得。已匯入使用者提供的職業及壺精名錄、移除示範卡；<b>逐卡機率採同階級平均分配，並非官方逐卡機率；名錄仍需人工校對</b>。不可用本工具預測實際消費結果。</div><div class="layout"><nav id="nav"><button class="active" data-tab="draw">✦ 召喚抽卡</button><button data-tab="collection">▦ 收藏圖鑑</button><button data-tab="fusion">⚒ 卡片合成</button><button data-tab="craft">⚒ 製作</button><button data-tab="shop">◆ 商城</button><button data-tab="stats">▤ 統計紀錄</button><button data-tab="settings">⚙ 資料設定</button></nav><div>
+</style><style>.craft-result-card .craft-essence-reward{width:72px;height:72px;object-fit:contain}.craft-result-grid.craft-result-single .craft-result-card .craft-essence-reward{width:190px;height:160px;object-fit:contain}.craft-failure{color:#e9817a}</style><style>
+.craft-progress-mark{display:flex;align-items:center;justify-content:center;min-height:180px;animation:craftPulse 1s infinite alternate}
+.craft-progress-chest{width:min(245px,75%);max-height:205px;object-fit:contain;filter:drop-shadow(0 0 15px #d9a34d66)}
+@media(max-width:480px){.craft-progress-mark{min-height:140px}.craft-progress-chest{max-height:155px}}
+</style></head><body><header><h1>LINEAGE II M <small>SIMULATOR</small></h1><div>台灣服 · 原始世界｜非官方獨立模擬器 v3.5.5</div></header><main><div class="warning"><b>資料狀態：</b>職業及壺精共八組召喚階級機率已依使用者提供的遊戲內截圖設定，一般合成成功率及失敗返還規則依使用者提供設定；變身與壺精皆有超越神話與唯一階級；超越神話屬於神話階級的特殊取得分類，無法透過一般傳說合成取得。已匯入使用者提供的職業及壺精名錄、移除示範卡；<b>逐卡機率採同階級平均分配，並非官方逐卡機率；名錄仍需人工校對</b>。不可用本工具預測實際消費結果。</div><div class="layout"><nav id="nav"><button class="active" data-tab="draw">✦ 召喚抽卡</button><button data-tab="collection">▦ 收藏圖鑑</button><button data-tab="fusion">⚒ 卡片合成</button><button data-tab="craft">⚒ 製作</button><button data-tab="shop">◆ 商城</button><button data-tab="stats">▤ 統計紀錄</button><button data-tab="settings">⚙ 資料設定</button></nav><div>
 <section class="panel" id="draw"><h2>✦ 命運召喚</h2><div class="actions"><button class="active" id="type-class" data-type="class">⚔ 職業變身</button><button id="type-spirit" data-type="spirit">✧ 娃娃壺精</button></div><p class="muted">獨立卡池｜免費模擬｜11連抽不設定未經證實的保底</p><div class="filters"><label>召喚等級 <select id="summonGrade"><option value="normal">一般召喚</option><option value="advanced">上級召喚</option><option value="supreme">最上級召喚</option><option value="master">大師召喚</option><option value="testLegend">傳說召喚（測試）</option><option value="testMythic">神話召喚（測試）</option></select></label></div><p id="summonRateInfo" class="muted"></p><div class="actions"><button id="single">單次召喚</button><button id="eleven">召喚 11 次</button></div><h3>召喚結果</h3><div class="cards" id="results"><p>等待召喚…</p></div></section>
 <section class="panel hidden" id="collection"><h2>收藏圖鑑</h2><div class="filters"><select id="filterType"><option value="all">全部類別</option><option value="class">變身</option><option value="spirit">壺精</option></select><select id="filterTier"><option value="all">全部階級</option></select><select id="filterOwned"><option value="all">全部</option><option value="owned">已擁有</option><option value="missing">未取得</option></select><select id="filterVerified"><option value="all">全部資料</option><option value="verified">已核對名稱</option><option value="demo">示範資料</option></select></div><div id="collectionInfo"></div><div class="progress"><span id="collectionProgress"></span></div><div class="cards" id="collectionCards"></div></section>
 <section class="panel hidden" id="fusion"><h2>⚒ 職業與壺精合成</h2><p class="warning">成功率與材料數量依照使用者提供的遊戲內規則。一般合成失敗時，消耗投入材料並隨機返還一張同階卡片；超越神話失敗只消耗傳說、神話保留。神話成功升級超越神話時，原神話會被替換。</p><div class="filters"><select id="fusionType"><option value="class">職業變身</option><option value="spirit">娃娃壺精</option></select><select id="fusionTier"></select></div><p id="fusionInfo"></p><div id="fusionMaterials" class="cards"></div><div id="guaranteePanel" class="guarantee hidden"><div class="guarantee-top"><div><span class="muted">當前失敗次數</span><div id="failureCounter" class="failure-count">0/20</div></div><button id="claimGuarantee" disabled>保底合成</button></div><div id="guaranteeAvailable" class="gold-line">目前可保底合成領取 0 次</div><div class="progress"><span id="guaranteeProgress"></span></div><p class="muted">保底失敗次數持續累積；每領取一次扣除20次。職業與壺精分開計算。</p></div><div class="actions"><button id="fuse">一般合成</button><button id="fuseMax">最大合成</button></div><p id="batchInfo" class="muted"></p><div id="fusionResult" class="result"></div></section>
@@ -120,7 +124,7 @@ select:focus{outline:2px solid #d6aa59;outline-offset:2px}select option:checked{
   <div class="material-dialog-head"><h3 id="materialDialogTitle">購買數量選擇</h3><button id="materialDialogClose" type="button" aria-label="關閉視窗">✕</button></div>
   <div id="materialDialogProduct" class="material-dialog-product">太古氣息箱</div>
   <div class="material-quick"><button type="button" data-count="1">1次</button><button type="button" data-count="5">5次</button><button type="button" data-count="10">10次</button></div>
-  <label class="material-count-label" for="materialCount">自訂購買次數</label><input id="materialCount" type="number" inputmode="numeric" min="1" step="1" value="1" />
+  <label class="material-count-label" for="materialCount">自訂購買次數</label><input id="materialCount" type="number" inputmode="numeric" min="1" step="1" value="" />
   <div class="material-summary"><div>消耗鑽石 <strong id="materialTotalCost">100</strong></div><div>獲得創造氣息 <strong id="materialTotalEssence">4</strong></div><div>購買後剩餘鑽石 <strong id="materialRemaining">0</strong></div></div>
   <p id="materialDialogError" class="material-dialog-error" role="status"></p>
   <div class="material-dialog-actions"><button id="materialDialogCancel" type="button">取消</button><button id="materialDialogConfirm" type="button">確認購買</button></div>
@@ -129,7 +133,7 @@ select:focus{outline:2px solid #d6aa59;outline-offset:2px}select option:checked{
 <section class="panel hidden" id="stats"><h2>統計紀錄</h2><div id="statsData" class="metrics"></div><h3>最近召喚</h3><div id="history"></div><div class="actions"><button id="exportSave">匯出進度</button><button id="resetSave">重設進度</button></div></section>
 <section class="panel hidden" id="settings"><h2>資料庫與驗證狀態</h2><p id="dbInfo"></p><h3>八組召喚階級機率（使用者提供遊戲內截圖）</h3><div id="rates"></div><h3>名錄與召喚資格</h3><p class="muted">本模擬器依你的指定讓使用者提供的同階級卡片等權參與普通召喚。此為模擬規則，不代表官方逐卡機率或召喚資格。</p><div class="filters"><label><input id="strictMode" type="checkbox"> 僅允許已驗證卡片進行抽卡（未補齊前可能無法抽卡）</label></div><div id="strictInfo" class="muted"></div><h3>卡片名錄完整性稽核</h3><p class="muted">逐階級顯示已核對名稱、示範卡及缺漏；此表不代表官方卡片總數。</p><div id="catalogAudit" class="audit-wrap"></div><p id="weightStatus" class="warning"></p><button id="exportAudit">匯出稽核報告 JSON</button><h3>匯入資料庫 JSON</h3><p class="muted">支援 schemaVersion 2；可分別設定兩個卡池的抽卡階級機率。更換資料庫會清除本機進度。</p><input id="importDb" type="file" accept=".json"><div class="actions"><button id="exportDb">匯出目前資料庫</button><button id="restoreDb">恢復內建資料</button></div><h3>匯入進度 JSON</h3><input id="importSave" type="file" accept=".json"><p class="muted">請勿匯入來源不明的資料。匯入後會驗證格式，避免損毀目前進度。</p><h3>名錄來源與校對狀態</h3><div id="officialSources" class="source"></div><h3>來源紀錄</h3><div class="source"><p><a href="https://lounge.plaync.com/feed/79326?country=TW&locale=zh-TW" target="_blank" rel="noopener noreferrer">2026/08/26 原始世界更新：特里頓</a></p><p><a href="https://tw.ncsoft.com/lineage2m/guidebook/view?title=%E5%A3%BA%E7%B2%BE%E5%94%AF%E4%B8%80%E5%90%88%E6%88%90" target="_blank" rel="noopener noreferrer">官方指南：壺精唯一合成</a></p></div></section>
 </div></div></main><footer>非官方粉絲製作 · 不隸屬於 NCSOFT · 未使用原版遊戲素材 · 僅供研究與娛樂</footer><div class="craft-overlay" id="craftProgressOverlay" hidden aria-live="polite">
- <div class="craft-progress-dialog" role="status"><div class="craft-progress-mark">✦</div><h3>神話技能書選擇箱製作中</h3><p>正在進行製作，請稍候……</p><div class="craft-progress-track"><div class="craft-progress-fill" id="craftProgressFill"></div></div></div>
+ <div class="craft-progress-dialog" role="status"><div class="craft-progress-mark"><img src="assets/craft-chest-large.png" alt="神話技能書選擇箱" class="craft-progress-chest"></div><h3>神話技能書選擇箱製作中</h3><p>正在進行製作，請稍候……</p><div class="craft-progress-track"><div class="craft-progress-fill" id="craftProgressFill"></div></div></div>
 </div>
 <div class="craft-overlay" id="craftResultOverlay" hidden>
  <div class="craft-results-dialog" role="dialog" aria-modal="true" aria-labelledby="craftResultsTitle">
@@ -141,7 +145,7 @@ select:focus{outline:2px solid #d6aa59;outline-offset:2px}select option:checked{
  </div>
 </div>
 
-<script src="database.js"></script><script src="app.js?v=3.5.2"></script><script>
+<script src="database.js"></script><script src="app.js?v=3.5.3"></script><script>
 (()=>{const w=document.getElementById('shopWealth'),m=document.getElementById('shopMaterials'),a=document.getElementById('shopWealthPanel'),b=document.getElementById('shopMaterialsPanel');function choose(material){a.hidden=material;b.hidden=!material;w.classList.toggle('active',!material);m.classList.toggle('active',material)}w.addEventListener('click',()=>choose(false));m.addEventListener('click',()=>choose(true))})();
 </script>
 </body></html>

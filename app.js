@@ -6,7 +6,7 @@ let db=read('l2m-db-v2',clone(base)),strictMode=false,save=read('l2m-save-v2',{i
 if(!save.guarantee||typeof save.guarantee!=='object')save.guarantee={};
 function ensureShop(){if(!save.shop||typeof save.shop!=='object'||Array.isArray(save.shop))save.shop={};if(!Number.isSafeInteger(save.shop.diamonds)||save.shop.diamonds<0)save.shop.diamonds=0;if(!Number.isSafeInteger(save.shop.totalTWD)||save.shop.totalTWD<0)save.shop.totalTWD=0;if(!Array.isArray(save.shop.purchases))save.shop.purchases=[];if(!Number.isSafeInteger(save.shop.essence)||save.shop.essence<0)save.shop.essence=0;if(!Array.isArray(save.shop.crafts))save.shop.crafts=[];if(!Number.isSafeInteger(save.shop.arcStones)||save.shop.arcStones<0)save.shop.arcStones=0;if(!Array.isArray(save.shop.craftRewards)||save.shop.craftRewards.length!==3)save.shop.craftRewards=[0,0,0]}
 ensureShop();
-const shopPacks={'130':100,'440':330,'1240':930,'2040':1530,'4000':2990};
+const shopPacks={'130':100,'440':330,'1240':930,'2040':1530,'4000':2990,'40000':25000};
 function renderShop(){const el=$('shopDiamonds');if(el)el.textContent=save.shop.diamonds.toLocaleString('zh-TW');if($('shopEssence'))$('shopEssence').textContent='×'+save.shop.essence.toLocaleString('zh-TW');if(window.renderCraftShared)window.renderCraftShared()}
 let pendingMaterialBoxes=null;
 function materialModalClose(){const m=$('materialPurchaseModal');m.hidden=true;pendingMaterialBoxes=null}

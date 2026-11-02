@@ -60,7 +60,24 @@ function craftBoxes(index,qty,stones=0){
  save.shop.craftRewards[index]+=successes;
  persist();renderShop();return {...batch,cost,stoneCost,rate};
 }
-function buyShopPack(amount){const price=shopPacks[amount];const qty=Number(amount);if(!Number.isSafeInteger(price)||!Number.isSafeInteger(qty))return;save.shop.diamonds+=qty;save.shop.totalTWD+=price;save.shop.purchases.unshift({time:new Date().toISOString(),diamonds:qty,twd:price});save.shop.purchases=save.shop.purchases.slice(0,1000);persist();renderShop();const notice=$('shopNotice');if(notice)notice.textContent=`模擬購買成功：獲得 ${qty.toLocaleString()} 鑽石，目前持有 ${save.shop.diamonds.toLocaleString()} 鑽石。`}
+function buyShopPack(amount){
+ const price=shopPacks[String(amount)],qty=Number(amount);
+ if(!Number.isSafeInteger(price)||!Number.isSafeInteger(qty)||qty<=0)return;
+ ensureShop();
+ if(!Number.isSafeInteger(save.shop.diamonds+qty)||!Number.isSafeInteger(save.shop.totalTWD+price)){
+  alert('模擬鑽石或消費總額已超出可安全儲存的範圍。');return;
+ }
+ save.shop.diamonds+=qty;
+ save.shop.totalTWD+=price;
+ save.shop.purchases.unshift({time:new Date().toISOString(),type:'diamond',diamonds:qty,twd:price});
+ save.shop.purchases=save.shop.purchases.slice(0,1000);
+ persist();
+ renderShop();
+ // Statistics may already be open; update immediately, not only on navigation.
+ stats();
+ const notice=$('shopNotice');
+ if(notice)notice.textContent=`模擬購買成功：獲得 ${qty.toLocaleString('zh-TW')} 鑽石；累計模擬消費 TWD ${save.shop.totalTWD.toLocaleString('zh-TW')}。`;
+}
 
 if(db.version!==base.version && /^(0\.|1\.[0-5](?:-|$))/.test(String(db.version))){
  const prior=db;const oldById=new Map(prior.cards.map(c=>[c.id,c]));const newByKey=new Map(base.cards.map(c=>[c.type+'|'+c.rarity+'|'+c.name,c]));const remap=id=>{const old=oldById.get(id);return old?newByKey.get(old.type+'|'+old.rarity+'|'+old.name)?.id:null};
@@ -156,7 +173,13 @@ $('resetSave').onclick=()=>{if(confirm('確定刪除本機抽卡與合成紀錄�
 $('restoreDb').onclick=()=>{if(confirm('恢復內建資料庫並清除進度？')){db=clone(base);localStorage.setItem('l2m-db-v2',JSON.stringify(db));reset();settings();summonInfo()}};
 $('importDb').onchange=e=>fileJSON(e.target,x=>{validateDb(x);if(!confirm('匯入資料庫會清除進度，繼續？'))return;localStorage.setItem('l2m-db-v2',JSON.stringify(x));db=x;reset();settings();summonInfo();alert('資料庫已匯入')});
 $('importSave').onchange=e=>fileJSON(e.target,x=>{validateSave(x);save=x;save.guarantee??={};ensureShop();persist();renderShop();alert('進度已匯入')});
-document.querySelectorAll('.shop-buy').forEach(button=>button.addEventListener('click',()=>buyShopPack(button.dataset.diamonds)));
+// Delegated handler covers every diamond product, including the 40,000 pack.
+document.getElementById('shopWealthPanel').addEventListener('click',event=>{
+ const button=event.target.closest('button.shop-buy[data-diamonds]');
+ if(!button||!event.currentTarget.contains(button))return;
+ event.preventDefault();
+ buyShopPack(button.dataset.diamonds);
+});
 document.querySelectorAll('.material-buy').forEach(button=>button.addEventListener('click',()=>buyMaterial(Number(button.dataset.boxes))));
 document.querySelectorAll('.material-quick button').forEach(button=>button.addEventListener('click',()=>{$('materialCount').value=button.dataset.count;materialModalUpdate()}));
 $('materialCount').addEventListener('input',materialModalUpdate);

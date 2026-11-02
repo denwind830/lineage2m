@@ -1,0 +1,1292 @@
+[
+  {
+    "name": "初級兵",
+    "rarity": "一般",
+    "source": "image(20261101-161923).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "巫師",
+    "rarity": "一般",
+    "source": "image(20261101-161923).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "弓者",
+    "rarity": "一般",
+    "source": "image(20261101-161923).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "持戟者",
+    "rarity": "一般",
+    "source": "image(20261101-161923).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "探魂者",
+    "rarity": "一般",
+    "source": "image(20261101-161923).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "牧師",
+    "rarity": "一般",
+    "source": "image(20261101-161923).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "獸人士兵",
+    "rarity": "一般",
+    "source": "image(20261101-161923).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "獸人弩手",
+    "rarity": "一般",
+    "source": "image(20261101-161923).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "獸人持戟者",
+    "rarity": "一般",
+    "source": "image(20261101-161923).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "獸人法魔",
+    "rarity": "一般",
+    "source": "image(20261101-161923).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "獸人狂暴者",
+    "rarity": "一般",
+    "source": "image(20261101-161923).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "矮人持戟者",
+    "rarity": "一般",
+    "source": "image(20261101-161923).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "矮人火炮手",
+    "rarity": "一般",
+    "source": "image(20261101-161932).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "矮人牧師",
+    "rarity": "一般",
+    "source": "image(20261101-161932).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "矮人盜賊",
+    "rarity": "一般",
+    "source": "image(20261101-161932).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "矮人聖石弓者",
+    "rarity": "一般",
+    "source": "image(20261101-161932).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "矮人騎士",
+    "rarity": "一般",
+    "source": "image(20261101-161932).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "矮人鬥士",
+    "rarity": "一般",
+    "source": "image(20261101-161932).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "突襲者",
+    "rarity": "一般",
+    "source": "image(20261101-161932).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "精靈劍士",
+    "rarity": "一般",
+    "source": "image(20261101-161932).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "精靈巡守",
+    "rarity": "一般",
+    "source": "image(20261101-161932).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "精靈巫師",
+    "rarity": "一般",
+    "source": "image(20261101-161932).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "精靈獵人",
+    "rarity": "一般",
+    "source": "image(20261101-161932).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "精靈神使",
+    "rarity": "一般",
+    "source": "image(20261101-161932).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "精靈騎士",
+    "rarity": "一般",
+    "source": "image(20261101-161945).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "裝甲兵",
+    "rarity": "一般",
+    "source": "image(20261101-161945).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "騎士",
+    "rarity": "一般",
+    "source": "image(20261101-161945).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "鬥士",
+    "rarity": "一般",
+    "source": "image(20261101-161945).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "黑暗原始劍士",
+    "rarity": "一般",
+    "source": "image(20261101-161945).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "黑暗巫師",
+    "rarity": "一般",
+    "source": "image(20261101-161945).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "黑暗持戟者",
+    "rarity": "一般",
+    "source": "image(20261101-161945).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "黑暗暗殺者",
+    "rarity": "一般",
+    "source": "image(20261101-161945).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "黑暗神使",
+    "rarity": "一般",
+    "source": "image(20261101-161945).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "黑暗遊俠",
+    "rarity": "一般",
+    "source": "image(20261101-161945).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "黑暗鬥士",
+    "rarity": "一般",
+    "source": "image(20261101-161945).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "傭兵",
+    "rarity": "高級",
+    "source": "image(20261101-162024).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "先知",
+    "rarity": "高級",
+    "source": "image(20261101-162024).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "劍刃舞者",
+    "rarity": "高級",
+    "source": "image(20261101-162024).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "劍術詩人",
+    "rarity": "高級",
+    "source": "image(20261101-162024).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "劍鬥士",
+    "rarity": "高級",
+    "source": "image(20261101-162024).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "咒術詩人",
+    "rarity": "高級",
+    "source": "image(20261101-162024).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "大地行者",
+    "rarity": "高級",
+    "source": "image(20261101-162024).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "寶礦獵者",
+    "rarity": "高級",
+    "source": "image(20261101-162024).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "寶礦追跡者",
+    "rarity": "高級",
+    "source": "image(20261101-162024).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "寶藏獵人",
+    "rarity": "高級",
+    "source": "image(20261101-162024).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "席琳長老",
+    "rarity": "高級",
+    "source": "image(20261101-162024).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "戰狂",
+    "rarity": "高級",
+    "source": "image(20261101-162024).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "戰鬥初級兵",
+    "rarity": "高級",
+    "source": "image(20261101-162031).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "深淵行者",
+    "rarity": "高級",
+    "source": "image(20261101-162031).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "火焰保護者",
+    "rarity": "高級",
+    "source": "image(20261101-162031).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "火焰獵師",
+    "rarity": "高級",
+    "source": "image(20261101-162031).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "爆破裝甲兵",
+    "rarity": "高級",
+    "source": "image(20261101-162031).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "狂咒術士",
+    "rarity": "高級",
+    "source": "image(20261101-162031).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "破魂者",
+    "rarity": "高級",
+    "source": "image(20261101-162031).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "緋紅持矛者",
+    "rarity": "高級",
+    "source": "image(20261101-162031).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "緋紅殺手",
+    "rarity": "高級",
+    "source": "image(20261101-162031).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "聖殿騎士",
+    "rarity": "高級",
+    "source": "image(20261101-162031).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "聖石保護者",
+    "rarity": "高級",
+    "source": "image(20261101-162031).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "聖石工匠",
+    "rarity": "高級",
+    "source": "image(20261101-162031).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "聖石火炮手",
+    "rarity": "高級",
+    "source": "image(20261101-162038).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "聖石騎兵",
+    "rarity": "高級",
+    "source": "image(20261101-162038).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "聖騎士",
+    "rarity": "高級",
+    "source": "image(20261101-162038).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "血氣原始劍士",
+    "rarity": "高級",
+    "source": "image(20261101-162038).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "術士",
+    "rarity": "高級",
+    "source": "image(20261101-162038).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "財富祭司",
+    "rarity": "高級",
+    "source": "image(20261101-162038).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "資深劍刃舞者",
+    "rarity": "高級",
+    "source": "image(20261101-162038).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "資深寶礦獵者",
+    "rarity": "高級",
+    "source": "image(20261101-162038).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "資深戰狂",
+    "rarity": "高級",
+    "source": "image(20261101-162038).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "資深深淵行者",
+    "rarity": "高級",
+    "source": "image(20261101-162038).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "資深破魂者",
+    "rarity": "高級",
+    "source": "image(20261101-162038).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "資深緋紅持矛者",
+    "rarity": "高級",
+    "source": "image(20261101-162038).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "資深緋紅殺手",
+    "rarity": "高級",
+    "source": "image(20261101-162046).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "資深聖石火炮手",
+    "rarity": "高級",
+    "source": "image(20261101-162046).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "資深聖騎士",
+    "rarity": "高級",
+    "source": "image(20261101-162046).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "資深血氣原始劍士",
+    "rarity": "高級",
+    "source": "image(20261101-162046).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "資深財富祭司",
+    "rarity": "高級",
+    "source": "image(20261101-162046).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "資深銀月遊俠",
+    "rarity": "高級",
+    "source": "image(20261101-162046).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "銀月遊俠",
+    "rarity": "高級",
+    "source": "image(20261101-162046).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "長老",
+    "rarity": "高級",
+    "source": "image(20261101-162046).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "闇影遊俠",
+    "rarity": "高級",
+    "source": "image(20261101-162046).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "闇影騎兵",
+    "rarity": "高級",
+    "source": "image(20261101-162046).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "鷹眼",
+    "rarity": "高級",
+    "source": "image(20261101-162046).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "人馬",
+    "rarity": "稀有",
+    "source": "image(20261101-162115).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "伊娃吟遊詩人",
+    "rarity": "稀有",
+    "source": "image(20261101-162115).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "伊娃祕術詩人",
+    "rarity": "稀有",
+    "source": "image(20261101-162115).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "伊娃聖者",
+    "rarity": "稀有",
+    "source": "image(20261101-162115).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "伊斯伊娃吟遊詩人",
+    "rarity": "稀有",
+    "source": "image(20261101-162115).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "伊斯幽冥舞者",
+    "rarity": "稀有",
+    "source": "image(20261101-162115).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "伊斯決鬥者",
+    "rarity": "稀有",
+    "source": "image(20261101-162115).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "伊斯黃金工匠",
+    "rarity": "稀有",
+    "source": "image(20261101-162115).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "冒險英豪",
+    "rarity": "稀有",
+    "source": "image(20261101-162115).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "力伊娃智者",
+    "rarity": "稀有",
+    "source": "image(20261101-162115).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "力十字軍戰士",
+    "rarity": "稀有",
+    "source": "image(20261101-162125).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "力慾好戰者",
+    "rarity": "稀有",
+    "source": "image(20261101-162125).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "力精確槍彈手",
+    "rarity": "稀有",
+    "source": "image(20261101-162125).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "力至寶藏獵人",
+    "rarity": "稀有",
+    "source": "image(20261101-162125).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "力野心女公爵",
+    "rarity": "稀有",
+    "source": "image(20261101-162125).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "力黃金使者",
+    "rarity": "稀有",
+    "source": "image(20261101-162125).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "力黑暗夜行者",
+    "rarity": "稀有",
+    "source": "image(20261101-162125).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "哈格永恆執斧者",
+    "rarity": "稀有",
+    "source": "image(20261101-162125).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "地獄守衛",
+    "rarity": "稀有",
+    "source": "image(20261101-162125).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "大魔導士",
+    "rarity": "稀有",
+    "source": "image(20261101-162125).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "天使騎士",
+    "rarity": "稀有",
+    "source": "image(20261101-162125).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "寶礦開拓者",
+    "rarity": "稀有",
+    "source": "image(20261101-162125).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "尤爾人馬",
+    "rarity": "稀有",
+    "source": "image(20261101-162132).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "尤爾月光箭靈",
+    "rarity": "稀有",
+    "source": "image(20261101-162132).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "尤爾炮擊大師",
+    "rarity": "稀有",
+    "source": "image(20261101-162132).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "尤爾慾疾狙擊手",
+    "rarity": "稀有",
+    "source": "image(20261101-162132).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "尤爾黃金狙擊手",
+    "rarity": "稀有",
+    "source": "image(20261101-162132).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "崇高人馬",
+    "rarity": "稀有",
+    "source": "image(20261101-162132).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "崇高伊娃吟遊詩人",
+    "rarity": "稀有",
+    "source": "image(20261101-162132).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "崇高伊娃祕術詩人",
+    "rarity": "稀有",
+    "source": "image(20261101-162132).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "崇高伊娃聖者",
+    "rarity": "稀有",
+    "source": "image(20261101-162132).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "崇高冒險英豪",
+    "rarity": "稀有",
+    "source": "image(20261101-162132).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "崇高大魔導士",
+    "rarity": "稀有",
+    "source": "image(20261101-162139).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "崇高寶礦開拓者",
+    "rarity": "稀有",
+    "source": "image(20261101-162139).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "崇高席琳聖者",
+    "rarity": "稀有",
+    "source": "image(20261101-162139).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "崇高幽冥箭靈",
+    "rarity": "稀有",
+    "source": "image(20261101-162139).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "崇高幽冥舞者",
+    "rarity": "稀有",
+    "source": "image(20261101-162139).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "崇高新星擲槍手",
+    "rarity": "稀有",
+    "source": "image(20261101-162139).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "崇高新星聖徒",
+    "rarity": "稀有",
+    "source": "image(20261101-162139).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "崇高昭聖者",
+    "rarity": "稀有",
+    "source": "image(20261101-162139).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "崇高暴風狂嘯者",
+    "rarity": "稀有",
+    "source": "image(20261101-162146).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "崇高月光箭靈",
+    "rarity": "稀有",
+    "source": "image(20261101-162146).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "崇高月影獵者",
+    "rarity": "稀有",
+    "source": "image(20261101-162146).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "崇高末日戰狂",
+    "rarity": "稀有",
+    "source": "image(20261101-162146).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "崇高末日破壞者",
+    "rarity": "稀有",
+    "source": "image(20261101-162146).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "崇高永恆執斧者",
+    "rarity": "稀有",
+    "source": "image(20261101-162146).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "崇高決鬥者",
+    "rarity": "稀有",
+    "source": "image(20261101-162146).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "崇高深淵守衛",
+    "rarity": "稀有",
+    "source": "image(20261101-162146).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "崇高漂泊戰劍者",
+    "rarity": "稀有",
+    "source": "image(20261101-162146).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "崇高炮擊大師",
+    "rarity": "稀有",
+    "source": "image(20261101-162146).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "崇高慾怒狂戰士",
+    "rarity": "稀有",
+    "source": "image(20261101-162146).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "崇高慾殿騎士",
+    "rarity": "稀有",
+    "source": "image(20261101-162146).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "崇高慾疾狙擊手",
+    "rarity": "稀有",
+    "source": "image(20261101-162202).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "崇高猛將",
+    "rarity": "稀有",
+    "source": "image(20261101-162202).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "崇高疾風浪人",
+    "rarity": "稀有",
+    "source": "image(20261101-162202).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "崇高碎魂者",
+    "rarity": "稀有",
+    "source": "image(20261101-162202).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "崇高鎮魂初學者",
+    "rarity": "稀有",
+    "source": "image(20261101-162202).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "崇高魅影獵者",
+    "rarity": "稀有",
+    "source": "image(20261101-162202).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "崇高黃金寶藏獵人",
+    "rarity": "稀有",
+    "source": "image(20261101-162202).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "崇高黃金工匠",
+    "rarity": "稀有",
+    "source": "image(20261101-162202).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "席格爾慾殿騎士",
+    "rarity": "稀有",
+    "source": "image(20261101-162202).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "席琳聖者",
+    "rarity": "稀有",
+    "source": "image(20261101-162214).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "幽冥箭靈",
+    "rarity": "稀有",
+    "source": "image(20261101-162214).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "幽冥舞者",
+    "rarity": "稀有",
+    "source": "image(20261101-162214).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "拉克碎魂者",
+    "rarity": "稀有",
+    "source": "image(20261101-162214).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "拉德月影獵者",
+    "rarity": "稀有",
+    "source": "image(20261101-162214).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "拉德翎羽游擊手",
+    "rarity": "稀有",
+    "source": "image(20261101-162214).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "拉德黃金寶藏獵人",
+    "rarity": "稀有",
+    "source": "image(20261101-162214).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "提爾新星擲槍手",
+    "rarity": "稀有",
+    "source": "image(20261101-162221).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "提爾末日破壞者",
+    "rarity": "稀有",
+    "source": "image(20261101-162221).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "提爾深淵守衛",
+    "rarity": "稀有",
+    "source": "image(20261101-162221).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "提爾慾怒狂戰士",
+    "rarity": "稀有",
+    "source": "image(20261101-162221).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "提爾猛將",
+    "rarity": "稀有",
+    "source": "image(20261101-162221).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "新星擲槍手",
+    "rarity": "稀有",
+    "source": "image(20261101-162221).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "新星聖徒",
+    "rarity": "稀有",
+    "source": "image(20261101-162221).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "昭聖者",
+    "rarity": "稀有",
+    "source": "image(20261101-162221).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "暴風狂嘯者",
+    "rarity": "稀有",
+    "source": "image(20261101-162221).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "月光箭靈",
+    "rarity": "稀有",
+    "source": "image(20261101-162230).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "月影獵者",
+    "rarity": "稀有",
+    "source": "image(20261101-162230).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "末日戰狂",
+    "rarity": "稀有",
+    "source": "image(20261101-162230).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "末日破壞者",
+    "rarity": "稀有",
+    "source": "image(20261101-162230).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "歐瑟冒險英豪",
+    "rarity": "稀有",
+    "source": "image(20261101-162230).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "歐瑟寶礦開拓者",
+    "rarity": "稀有",
+    "source": "image(20261101-162230).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "歐瑟疾風浪人",
+    "rarity": "稀有",
+    "source": "image(20261101-162230).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "歐瑟魅影獵者",
+    "rarity": "稀有",
+    "source": "image(20261101-162230).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "永恆執斧者",
+    "rarity": "稀有",
+    "source": "image(20261101-162230).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "決鬥者",
+    "rarity": "稀有",
+    "source": "image(20261101-162230).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "深淵守衛",
+    "rarity": "稀有",
+    "source": "image(20261101-162230).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "漂泊戰劍者",
+    "rarity": "稀有",
+    "source": "image(20261101-162230).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "炮擊大師",
+    "rarity": "稀有",
+    "source": "image(20261101-162249).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "慾怒狂戰士",
+    "rarity": "稀有",
+    "source": "image(20261101-162249).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "慾殿騎士",
+    "rarity": "稀有",
+    "source": "image(20261101-162249).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "慾疾狙擊手",
+    "rarity": "稀有",
+    "source": "image(20261101-162249).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "猛將",
+    "rarity": "稀有",
+    "source": "image(20261101-162249).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "疾風浪人",
+    "rarity": "稀有",
+    "source": "image(20261101-162249).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "皇家戰鬥巡官",
+    "rarity": "稀有",
+    "source": "image(20261101-162249).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "皇家法魔",
+    "rarity": "稀有",
+    "source": "image(20261101-162249).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "皇家矮人持戟者",
+    "rarity": "稀有",
+    "source": "image(20261101-162249).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "皇家矮人牧師",
+    "rarity": "稀有",
+    "source": "image(20261101-162249).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "皇家精靈巡守",
+    "rarity": "稀有",
+    "source": "image(20261101-162249).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "皇家馬格努斯爆裂者",
+    "rarity": "稀有",
+    "source": "image(20261101-162303).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "皇家黃金寶藏獵人",
+    "rarity": "稀有",
+    "source": "image(20261101-162303).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "皇家黑暗暗殺者",
+    "rarity": "稀有",
+    "source": "image(20261101-162303).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "皇家黑暗鬥士",
+    "rarity": "稀有",
+    "source": "image(20261101-162303).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "碎魂者",
+    "rarity": "稀有",
+    "source": "image(20261101-162303).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "肯 漂泊戰劍者",
+    "rarity": "稀有",
+    "source": "image(20261101-162303).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "肯 頂流使者",
+    "rarity": "稀有",
+    "source": "image(20261101-162303).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "艾羅伊娃聖者",
+    "rarity": "稀有",
+    "source": "image(20261101-162303).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "艾羅新星聖徒",
+    "rarity": "稀有",
+    "source": "image(20261101-162310).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "艾羅昭聖者",
+    "rarity": "稀有",
+    "source": "image(20261101-162310).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "艾羅慾靈法師",
+    "rarity": "稀有",
+    "source": "image(20261101-162310).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "菲歐伊娃祕術詩人",
+    "rarity": "稀有",
+    "source": "image(20261101-162310).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "菲歐大魔導士",
+    "rarity": "稀有",
+    "source": "image(20261101-162310).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "菲歐暴風狂嘯者",
+    "rarity": "稀有",
+    "source": "image(20261101-162310).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "菲歐末日戰狂",
+    "rarity": "稀有",
+    "source": "image(20261101-162310).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "貴族伊娃吟遊詩人",
+    "rarity": "稀有",
+    "source": "image(20261101-162310).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "貴族伊娃聖者",
+    "rarity": "稀有",
+    "source": "image(20261101-162310).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "貴族冒險英豪",
+    "rarity": "稀有",
+    "source": "image(20261101-162310).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "貴族暴風狂嘯者",
+    "rarity": "稀有",
+    "source": "image(20261101-162310).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "貴族月影獵者",
+    "rarity": "稀有",
+    "source": "image(20261101-162318).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "貴族永恆執斧者",
+    "rarity": "稀有",
+    "source": "image(20261101-162318).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "貴族炮擊大師",
+    "rarity": "稀有",
+    "source": "image(20261101-162318).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "貴族慾怒狂戰士",
+    "rarity": "稀有",
+    "source": "image(20261101-162318).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "貴族慾殿騎士",
+    "rarity": "稀有",
+    "source": "image(20261101-162318).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "貴族猛將",
+    "rarity": "稀有",
+    "source": "image(20261101-162318).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "貴族碎魂者",
+    "rarity": "稀有",
+    "source": "image(20261101-162318).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "貴族黃金狙擊手",
+    "rarity": "稀有",
+    "source": "image(20261101-162318).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "鎮魂初學者",
+    "rarity": "稀有",
+    "source": "image(20261101-162318).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "頂流使者",
+    "rarity": "稀有",
+    "source": "image(20261101-162318).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "鬼靈軍刀",
+    "rarity": "稀有",
+    "source": "image(20261101-162318).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "魅影獵者",
+    "rarity": "稀有",
+    "source": "image(20261101-162318).png",
+    "poolConfirmed": false
+  },
+  {
+    "name": "黃金寶藏獵人",
+    "rarity": "稀有",
+    "source": "使用者文字補充",
+    "poolConfirmed": false
+  },
+  {
+    "name": "黃金工匠",
+    "rarity": "稀有",
+    "source": "使用者文字補充",
+    "poolConfirmed": false
+  }
+]
